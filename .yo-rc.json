@@ -1,0 +1,44 @@
+{
+  "generator-jhipster": {
+    "applicationType": "monolith",
+    "gitCompany": "",
+    "baseName": "jhipsterTodosApplication",
+    "packageName": "de.anhquan.jhipster.todos",
+    "packageFolder": "de/anhquan/jhipster/todos",
+    "serverPort": 8080,
+    "serviceDiscoveryType": "eureka",
+    "authenticationType": "jwt",
+    "uaaBaseName": "../uaa",
+    "cacheProvider": "ehcache",
+    "enableHibernateCache": false,
+    "websocket": "spring-websocket",
+    "databaseType": "mongodb",
+    "devDatabaseType": "mongodb",
+    "prodDatabaseType": "mongodb",
+    "searchEngine": "elasticsearch",
+    "enableSwaggerCodegen": "true",
+    "messageBroker": "kafka",
+    "buildTool": "maven",
+    "useSass": false,
+    "clientPackageManager": "npm",
+    "testFrameworks": [
+      "cucumber"
+    ],
+    "enableTranslation": true,
+    "nativeLanguage": "en",
+    "languages": [
+      "de",
+      "en"
+    ],
+    "clientFramework": "react",
+    "jhiPrefix": "jhi",
+    "jhipsterVersion": "5.8.2",
+    "jwtSecretKey": "ZmY4NDVhNDY4NTJmNWQxMzU1NTMxNzUzMjA1ZTBmYTI5YjJmY2RmYTdjMjlkNDY2MWIzMjE2NWMyZjZjZjVhNWM1ODdjZmIyODcxMmQ3MTdmMzQxMWQ1MDQ2ZWQ3YjQ2OWJmODY2MmQ5ZDc2MDEzZjg4NjMzZmNiM2U4Mjg4YjA=",
+    "entitySuffix": "",
+    "dtoSuffix": "DTO",
+    "otherModules": []
+  },
+  "git-provider": "GitHub",
+  "git-company": "anhquande",
+  "repository-name": "jhipster-todos-application"
+}
